@@ -25,7 +25,7 @@ export default function SignInPage() {
       if (result?.error) {
         setError(result.error);
       } else {
-        router.push('/auth/register'); // Redirect to registration page on successful sign in
+        router.push('/'); // Redirect to registration page on successful sign in
       }
     } catch (err) {
       setError('An error occurred during sign in');
