@@ -1,11 +1,11 @@
-import RegistrationForm from '@/components/registrationForm';
+import LogIn from './auth/login/page';
 import React from 'react';
 import './globals.css';
 
 export default function Home() {
   return (
     <main className="text-black">
-      <div><RegistrationForm></RegistrationForm></div>
+      <div><LogIn></LogIn></div>
     </main>
   );
 }
