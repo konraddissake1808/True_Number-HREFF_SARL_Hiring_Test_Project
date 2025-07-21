@@ -2,8 +2,6 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Sign } from 'crypto';
-import SignOutButton from './disconectButton';
 
 export default function RegisterForm() {
   const [name, setName] = useState('');
